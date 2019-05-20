@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Toyota"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/toyota_logo"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Find"
+            android:background="@drawable/button_custom_layout"
+            android:textColor="#FFFFFF"
+            android:id="@+id/find"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="service"
+            android:background="@drawable/button_custom_layout"
+            android:textColor="#FFFFFF"
+            android:id="@+id/service"
+            android:layout_margin="20dp"/></LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="10dp"
+        android:text="        Toyota is the world's market leader in sales of hybrid electric vehicles, and one of the largest companies to encourage the mass-market adoption of hybrid vehicles across the globe.
+        Toyota is also a market leader in hydrogen fuel-cell vehicles. Cumulative global sales of Toyota and Lexus hybrid passenger car models achieved the 10 million milestone in January 2017.
+        Its Prius family is the world's top selling hybrid nameplate with over 6 million units sold worldwide as of January 2017."/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="back"
+        android:background="@drawable/button_custom_layout"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HindustanMotors"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/hindustan_logo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Find"
+            android:background="@drawable/button_custom_layout"
+            android:textColor="#FFFFFF"
+            android:id="@+id/find"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="service"
+            android:background="@drawable/button_custom_layout"
+            android:textColor="#FFFFFF"
+            android:id="@+id/service"
+            android:layout_margin="20dp"/></LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="10dp"
+        android:text="Hindustan Motors is an Indian automotive manufacturer based in Kolkata, West Bengal, India. It is a part of the Birla Technical Services industrial group. The company was the largest car manufacturer in India before the rise of Maruti Udyog.
+Hindustan Motors was the producer of the Ambassador motorcar, which was once a mainstream car in India, based on 1956 Morris Oxford series III and was in production from 1957 until 2014. Production of the Ambassador ceased on 24 May 2014.
+One of the original three car manufacturers in India, founded in 1942 by Mr. B.M. Birla, it was a leader in car sales until the 1980s, when the industry was opened up from protection. "/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="back"
+        android:background="@drawable/button_custom_layout"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>

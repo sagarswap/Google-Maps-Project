@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Volkswagen"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/volkswagen_logo"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Find"
+            android:background="@drawable/button_custom_layout"
+            android:textColor="#FFFFFF"
+            android:id="@+id/find"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="service"
+            android:background="@drawable/button_custom_layout"
+            android:textColor="#FFFFFF"
+            android:id="@+id/service"
+            android:layout_margin="20dp"/></LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="10dp"
+        android:text="        Volkswagen was established in 1937 by the German Labour Front in Berlin.
+        Since 1985, Volkswagen has run the Volkswagen AutoMuseum in Wolfsburg, a museum dedicated specifically to the history of Volkswagen.
+        In addition to visiting exhibits in person, owners of vintage Volkswagens anywhere in the world may order what the museum refers to as a Birth Certificate for a set fee of €50—this formal Zertifikat indicates basic information known at the time of manufacture (colors, options, port of destination, etc.)"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="back"
+        android:background="@drawable/button_custom_layout"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
